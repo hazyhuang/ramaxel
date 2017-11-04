@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RootNode>
+	<Node type="Single"  number="1302"  max="720"  min="30"  name="PLL" ></Node>
+	<Node type="Single"  number="1802;1803;1804;1805;1806;1807;1808"  max="1080"  min="30"  name="二极管、三极管、MOS" ></Node>
+	<Node type="Single"  number="1603;1604"  max="720"  min="30"  name="钽电容" ></Node>
+	<Node type="Single"  number="1501;1502;1503;1504;1505;1506;1507;1508"  max="720"  min="30"  name="电阻" ></Node>
+	<Node type="Single"  number="1813"  max="360"  min="30"  name="变压器" ></Node>
+	<Node type="Single"  number="1809"  max="720"  min="30"  name="保险丝" ></Node>
+	<Node type="Single"  number="1816"  max="1440"  min="30"  name="滤波器" ></Node>
+	<Node type="Single"  number="1811;1812"  max="360"  min="30"  name="蜂鸣器、继电器" ></Node>
+	<Node type="Single"  number="1601;1602;1605;1606;1607"  max="720"  min="30"  name="电容" ></Node>
+<Node type="Single"  number="1701;1702;1703;1704;1705"  max="720"  min="30"  name="电感" ></Node>
+<Node type="Single"  number="1814;1815"  max="360"  min="30"  name="晶体晶振" ></Node>
+<Node type="Single"  number="2001"  max="360"  min="30"  name="五金" ></Node>
+<Node type="Single"  number="2002"  max="360"  min="30"  name="塑胶" ></Node>
+<Node type="Single"  number="2003"  max="360"  min="30"  name="散热" ></Node>
+<Node type="Single"  number="2004"  max="360"  min="30"  name="连接" ></Node>
+<Node type="Single"  number="2105"  max="360"  min="30"  name="标贴" ></Node>
+
+<Node type="Single"  number="1901;2110"  max="1080"  min="30"  name="包装材料" ></Node>
+
+<Node type="Single"  number="1222"  max="1080"  min="30"  name="Controler" ></Node>
+<Node type="Single"  number="4001"  max="1080"  min="30"  name="金线" ></Node>
+<Node type="Single"  number="4002"  max="180"  min="30"  name="黑胶" ></Node>
+<Node type="Single"  number="4006"  max="360"  min="30"  name="锡球" ></Node>
+<Node type="Single"  number="4003"  max="360"  min="30"  name="粘晶胶纸" ></Node>
+<Node type="Single"  number="2105"  max="1080"  min="30"  name="标签纸" ></Node>
+<Node type="Single"  number="5103"  max="360"  min="30"  name="表面活性剂" ></Node>
+<Node type="Single"  number="5002"  max="360"  min="30"  name="剥离胶纸" ></Node>
+<Node type="Single"  number="5106"  max="360"  min="30"  name="润模胶" ></Node>
+<Node type="Single"  number="5105"  max="360"  min="30"  name="洗模胶" ></Node>
+<Node type="Single"  number="5108"  max="180"  min="30"  name="助焊剂" ></Node>
+<Node type="Single"  number="5001"  max="360"  min="30"  name="研磨胶纸" ></Node>
+<Node type="Single"  number="4005"  max="360"  min="30"  name="FOW" ></Node>
+
+
+
+
+
+
+
+<Node type="Twice" number="1412" name="基板" attribute="PCB表面处理方式" attributeid="" >
+  <Node type="Single" value="OSP" max="180" min="30" ></Node>
+  <Node type="Single" value="非OSP" max="360" min="30" ></Node>
+</Node>
+<Node type="Twice" number="1201;1202;1203;1301" attribute="封装类型" attributeid="" >
+  <Node type="Single" value="BGA" max="720" min="30" ></Node>
+  <Node type="Single" value="非BGA" max="1080" min="30" ></Node>
+</Node>
+<Node type="Manufacturer" number="1212" attribute="制造商名称" attributeid="">
+  <Node type="Single" value="Micron" max="360" min="30" ></Node>
+  <Node type="Single" value="TSB" max="720" min="30" ></Node>
+</Node>
+<Node type="Thrice" number="1401;1402" attribute="工艺方式" attributeid="">
+  <Node type="Twice" value="非HDI" attribute="PCB表面处理方式" attributeid=""> 
+     <Node type="Single" value="化金PCB" max="360" min="30" ></Node>
+     <Node type="Single" value="OSP" max="180" min="30" ></Node>
+     <Node type="Single" value="喷锡" max="180" min="30" ></Node>
+  </Node>
+  <Node type="Single" value="HDI" max="90" min="30" ></Node>
+</Node>
+</RootNode>
